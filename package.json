@@ -1,0 +1,36 @@
+{
+  "name": "angular2-google-maps-quickstart",
+  "version": "0.1.0",
+  "description": "QuickStart project for angular2-google-maps",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "webserver": "./node_modules/.bin/http-server -p 8082 .",
+    "start": "./node_modules/.bin/concurrent \"npm run tsc:w\" \"npm run webserver\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SebastianM/angular2-google-maps-quickstart"
+  },
+  "keywords": [
+    "angular2-google-maps",
+    "angular2"
+  ],
+  "author": "Sebastian Müller <info@sebastian-mueller.net>",
+  "license": "MIT",
+  "dependencies": {
+    "angular2": "^2.0.0-beta.0",
+    "angular2-google-maps": "^0.5.0",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.13",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^5.0.0-beta.0",
+    "systemjs": "^0.19.9",
+    "zone.js": "^0.5.10"
+  },
+  "devDependencies": {
+    "concurrent": "^0.3.2",
+    "concurrently": "^1.0.0",
+    "http-server": "^0.8.5"
+  }
+}
